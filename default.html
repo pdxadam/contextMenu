@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="contextable">contextable1</div>
+    <div class="contextable">contextable2</div>
+    <div class="contextable">contextable3</div>
+    <div class="contextable">contextable4</div>
+    <div class="contextable">contextable5</div>
+    <div class="contextable">contextable6</div>
+    
+
+    <div id="contextMenu" class="hidden">
+        <ul>
+            <li onclick="select(this)" data-name = "Bob">Bob</li>
+            <li onclick="select(this)" data-name = "Rita">Rita</li>
+            <li onclick="select(this)" data-name = "Buttercup">Buttercup</li>
+            <li onclick="select(this)" data-name = "Fezzik">Fezzik</li>
+            <li onclick="select(this)" data-name = "Inigo">Inigo</li>
+
+        </ul>
+    </div>
+</body>
+</html>
